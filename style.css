@@ -10,6 +10,9 @@ body {
   background-position: center;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: hidden;
 }
 .container {
   display: flex;
