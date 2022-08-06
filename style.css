@@ -54,6 +54,7 @@ body {
 .registration {
   margin-top: 2vh;
   padding: 0 20px;
+
   /* width should be here */
 }
 .registration form input {
@@ -153,5 +154,8 @@ span {
   height: 40px;
   width: 80px;
 }
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 40em) {
+  .registration {
+    width: 640px;
+  }
 }
